@@ -106,40 +106,43 @@ section {
 .two-column-wrapper {
   display: flex;
   flex-direction: row;
+  gap: 1rem; /* Adjust this value to control the space between columns */
 }
 
 .two-column {
-  width: 50%;
-  /* flex: 1; */
-  margin: 3%;
+  flex: 1;
+  margin: 0;
+  padding: 1rem; /* Adjust or remove padding as needed */
 }
 
 .reusable-heading {
   text-transform: uppercase;
   text-align: center;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 2rem;
-  padding: 2rem;
+  padding: 1.5rem 0;
 }
 
 .reusable-heading:after {
   display: block;
   height: 3px;
   background-color:goldenrod;
-  content: "  ";
   width: 100px;
   margin: 30px auto 0 auto;
 }
 
 .self-brief {
   text-align: justify;
-  line-height: 2rem;
-  font-size: 1.2rem;
-  font-weight: bold;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 1rem;
+
 }
 
 .profile-photo-container {
   text-align: center;
+  padding: 2px;
 }
 
 #profile-photo {
