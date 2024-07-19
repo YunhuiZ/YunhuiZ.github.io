@@ -133,7 +133,7 @@ section {
 
 .self-brief {
   text-align: justify;
-  line-height: 1.6;
+  line-height: 1;
   font-size: 1rem;
   font-weight: lighter;
   padding: 1rem;
@@ -146,10 +146,10 @@ section {
 }
 
 #profile-photo {
-  width: 40%;
+  width: 65%;
   height: auto;
-  border-radius: 30% 0 0 30%;
-  padding: -1px;
+  border-radius: 60%;
+  padding: 5px;
   border-right: 5px solid goldenrod;
 }
 
