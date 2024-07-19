@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Brief biography of Yunhui Zhang, Master of IT Student in UWA">
+    <meta name="keywords" content="Yunhui, Zhang, HTML, CSS, JavaScript, Web Development, Master of IT">
+    <meta name="author" content="Yunhui Zhang">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography - Yunhui Zhang</title>
+
+    <!--This page is written purely in HTML5 and CSS3 along with JS (along with jquery)
+        without the use of any other CSS frameworks (apart from using the google fonts and ionicons icon pack). -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font family Itim -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- Ionicons ICON PACK -->
+    <!-- This icon pack is used for this page. For history page I will use bootstrap icons -->
+    <!-- My intention was to show my ability to use different icon packs and external sources -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <!-- Custom style sheets and scripts -->
+    <!-- Delete<link rel="stylesheet" href="styles.css">-->
+    <link rel="stylesheet" href="biography.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Author Section -->
+    <header class="bio-header">
+        <nav>
+            <div class="nav-bar">
+                <ul>
+                    <!-- <li><a href="project.html">Projects <span class = "color-decorate"><i class="ion-search"></i></span></a></li> -->
+                    <li><a href="resume.html">Blogs <span class = "color-decorate"><i class="ion-ios-list-outline"></i></span></a></li>
+                    <li><a href="#">Biography <span class = "color-decorate"><i class="ion-person"></i></span></a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+         <div class="author-text">
+            <h1 id = "author-heading-bio">What is Hyperlink</h1>
+             <!-- Delete later
+            <p><span class = "color-decorate">#</span> Master of IT Student</p>
+            -->
+        </div>
+
+    </header>
+
+    <!-- About me Section -->
+    <section class = "about-me">
+        <h2 class = "reusable-heading">About <span class = "color-decorate">Me</span></h2>
+        <div class = "row two-column-wrapper about-me-content">
+            <div class="two-column profile-photo-container">
+                <img id = "profile-photo" src="profile-photo.jpg" alt="Image of Yunhui Zhang">
+            </div>
+            <div class="self-brief two-column">
+                <!-- Audio Player -->
+                <div class="audio-player">
+                    <p>Enjoy reading with music on:</p>
+                    <a href="https://pixabay.com/music/beats-rain-and-nostalgia-version-60s-10820/" target="_blank"><span class = "color-decorate"><i class="ion-ios-play"></i> Play</span></a>
+                </div>
+                <p> My name is Yunhui. I am a Master of IT student in The University of Western Australia.
+                    My career journey began with dreams of being an English Interpreter, jet-setting to meet clients, rediscovering old streets, savoring the moment with local cuisine, and catching interesting arguments from locals' conversations...
+                    With a BA in English, it seemed like the perfect fit. I eagerly embraced interpretation and translation quality control roles, even launching my own freelance business. Yet, deep down, I felt an insatiable craving for more—more knowledge, more challenges, something electrifying that would truly ignite my passion.
+                    The moment I pressed play on my first Python tutorial video, everything changed. I was on fire. From that moment on, coding became my passion. Web development called to me, blending creativity and problem-solving in a way I'd never experienced before. I revelled in the thrill of breaking code to rebuild it better in a separate Git branch.
+                    Piecing together modules to press “Run All” on AI and ML models became my entertainment.  I found immense satisfaction in watching my web pages seamlessly transform for mobile screens while retaining their aesthetic appeal. In many ways, I realized, I was like those web pages—adaptable, yet always preserving my creative essence.
+                    My professional path has been an adventure across diverse roles, each adding new facets to my skillset. As a Market Research Analyst at a stealth startup, I delved into the depths of ABS data, artificial intelligence, and market reports, validating startup ideas and defining market sizes. At Practera, I immersed myself in the macadamia industry, crafting strategies to enhance consumer sales and optimize online presence.
+                    Joining the Code for Causes Club at the University of Western Australia as a Backend Developer, I collaborated on projects, merging Next.js, Tailwind, React, and Django with test-driven development to create seamless integrations. My time as a Data & Application Intern at South Metropolitan Health Service saw me transitioning dashboards from Tableau to Power BI, creating dynamic data visualization tools and implementing digital health solutions.
+                    My expertise lies in swiftly picking up new skills and programming languages, solving complex problems, applying domain-driven design, and optimizing websites. I thrive in environments where I can leverage MVVM and MVC methods to organize code efficiently. With Python, Java, C#, .Net Framework, SQL, JavaScript, TypeScript, HTML, CSS, Angular, and Git/GitHub under my belt, I remain eager to embrace any new technologies that cross my path.
+                </p>
+
+                <!-- Delete later
+                <br><br>
+                <a href = "#" class ="red-button get-in-touch">Get in touch</a>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education gray-background">
+        <h2 class="reusable-heading">Education</h2>
+        <div class="row two-column-wrapper education-content">
+            <div class = "two-column uni-icon">
+                <i class ="ion-university"></i>
+            </div>
+            <div class = "two-column">
+                <div class="qualification-card">
+                    <div class="uni-name">
+                        <h3>Master of Information Technology</h3>
+                        <p>The University of Western Australia</p>
+                    </div>
+                    <div class="uni-location">
+                        <div>
+                            <i class="ion-ios-location-outline"></i>
+                            &nbsp;
+                            Perth
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="qualification-card">
+                    <div class="uni-name">
+                        <h3>Bachelor of Arts </h3>
+                        <p>Zhoukou Normal University</p>
+                    </div>
+                    <div class="uni-location">
+                        <div>
+                            <i class="ion-ios-location-outline"></i>
+                            &nbsp;
+                            China
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+        <h2 class="reusable-heading">Experience</h2>
+        <div class="row two-column-wrapper experience-content">
+            <div class ="two-column experience-1">
+                <div class="experience-container">
+                    <div class = "experience-icon">
+                        <i class="ion-ios-analytics-outline"></i>
+                    </div>
+                    <div class = "experience-name">
+                        <h3>South Metropolitan Health Service</h3>
+                        <p><a href = "https://smhs.health.wa.gov.au/" target="_blank">Data and Application Intern &nbsp; <i class="ion-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="two-column experience-2">
+                <div class="experience-container">
+                    <div class = "experience-icon">
+                        <i class="ion-calculator"></i>
+                    </div>
+                    <div class = "experience-name">
+                        <h3>Myer</h3>
+                        <p><a href="https://www.myer.com.au/" target ="_blank"> Transanction Team Memeber  &nbsp; <i class="ion-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- <section class="skills gray-background">
+        <h1 class="reusable-heading">Skills</h1>
+    </section> -->
+
+    <!-- Connect with me Section -->
+    <section class="connect-with-me gray-background">
+        <h2 class="reusable-heading">Connect &nbsp; with &nbsp; <span class = "color-decorate">me</span></h2>
+        <div class = "connect-with-me-content">
+            <div class="connect-linkedin">
+                <a href="https://www.linkedin.com/in/yunhui-z-99837a24a/"
+                " target ="_blank"><i class="ion-social-linkedin-outline"></i></a>
+            </div>
+            <div class="connect-email">
+                <a href="mailto:zhangyunhui65@foxmail.com" target="_blank"><i class="ion-email"></i></a>
+            </div>
+            <div class="download-resume">
+                <a href="https://docs.google.com/document/d/1dUdT4fcpBHhAyIdOPh8kuTLbYltn1YI5fJHPhjlKiUU/export?format=pdf
+                "  target ="_blank" download><i class="ion-ios-download-outline"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class = "created-by">
+            <p><span class="color-decorate">&#169;</span> 2024 Written by <span class = "color-decorate"> by <span class="color-decorate">Yunhui Zhang</span></p>
+        </div>
+    </footer>
+</body>
+</html>
