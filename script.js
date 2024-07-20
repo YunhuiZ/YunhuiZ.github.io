@@ -1,6 +1,6 @@
 // variables related to biography page
 var i = 0;
-var authorHeadingText = "Hi there, I'm Yunhui Zhang...";
+var authorHeadingText = "Hi there, I'm Yunhui...";
 var speed = 200;
 
 
